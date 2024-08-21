@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.heart {
+    font-size: 100px;
+    color: red;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#yes {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no {
+    background-color: #f44336;
+    color: white;
+}
+
+.fireworks {
+    display: none;
+    font-size: 50px;
+}
+
+.message {
+    display: none;
+    font-size: 24px;
+    margin-top: 20px;
+    color: red;
+}
